@@ -215,7 +215,7 @@ TicketButton4:
   Enabled: true # Enable 4th category?
   TicketName: "Permission Request" # This will be the button and ticket name/category
   Description: "Cliquez ici pour payer" # Category description, This only works if SelectMenu is enabled, Leave blank to disable
-  TicketCategoryID: "1265318904696406131" # Channel Category ID
+  TicketCategoryID: "1270419026983649363" # Channel Category ID
   ClosedCategoryID: "" # The category the ticket will be moved to when it gets closed, leave blank to use the current category (only works if ArchiveTickets is enabled)
   TicketMessageTitle: "({category})" # Use {category} to get the category name for the ticket opened
   TicketMessage: "> Merci d'avoir contacté le support.\n> Veuillez envoyer les preuves du paiement et attendre une réponse." # Use {user} to get the user that created the ticket, {createdAt} to get when the ticket was created using a Discord timestamp
