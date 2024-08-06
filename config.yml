@@ -34,7 +34,7 @@ BotActivitySettings:
 
 TicketPanelSettings: # Use the panel command to send the ticket panel to a channel!
   PanelTitle: "__HTX Ticket Support Team__"
-  PanelMessage: "> - Bienvenue sur le serveur HTX ! \n> Si vous souhaitez être recruté, veuillez sélectionner la catégorie appropriée ci-dessous pour contacter leurs team respectives !\n> *Veuillez noter que nos heures de travail vont désormais de {workingHours-startTime} à {workingHours-endTime}.*\n \n> :flag_fr: - Bienvenue sur le serveur MLT ! \n> Si vous souhaitez être recruté, veuillez sélectionner la catégorie appropriée ci-dessous pour contacter leurs équipes respectives !" # You can use {workingHours-startTime} and {workingHours-endTime} variables
+  PanelMessage: "> - Bienvenue sur le serveur HTX ! \n> Si vous souhaitez être recruté, veuillez sélectionner la catégorie appropriée ci-dessous pour contacter leurs team respectives !\n> *Veuillez noter que nos heures de travail vont désormais de {workingHours-startTime} à {workingHours-endTime}.*" # You can use {workingHours-startTime} and {workingHours-endTime} variables
   PanelImage: "https://cdn.discordapp.com/banners/1258364211579326554/463586311eaabd9b33187ee48f457e3a.webp?size=1024&format=webp&width=450&height=103" # Recommended Size: 450x103, you can also use the default one, Leave blank for none
   PanelThumbnail: "" # Panel thumbnail image link, leave blank for none
   FooterTimestamp: false # Enable timestamp when you created the panel in the footer?
