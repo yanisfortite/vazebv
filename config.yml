@@ -172,7 +172,7 @@ TicketButton2:
   Enabled: true # Enable 2nd category?
   TicketName: "War request" # This will be the button and ticket name/category
   Description: "Cliquez ici pour demander une war !" # Category description, This only works if SelectMenu is enabled, Leave blank to disable
-  TicketCategoryID: "1269443509598027867" # Channel Category ID
+  TicketCategoryID: "1270345467020054629" # Channel Category ID
   ClosedCategoryID: "" # The category the ticket will be moved to when it gets closed, leave blank to use the current category (only works if ArchiveTickets is enabled)
   TicketMessageTitle: "({category})" # Use {category} to get the category name for the ticket opened
   TicketMessage: "> Merci d'avoir contacté le support.\n> Veuillez attendre une réponse.\n Remarque : les war doivent être prévus 1h30 à l'avance." # Use {user} to get the user that created the ticket, {createdAt} to get when the ticket was created using a Discord timestamp
