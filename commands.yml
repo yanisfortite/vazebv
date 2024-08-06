@@ -1,0 +1,74 @@
+# ===========================================================================
+# Plex Tickets Commands Configuration
+# Si vous rencontrez des problèmes, avez besoin de support ou avez une suggestion pour le bot, veuillez rejoindre notre serveur de support et créer un ticket, 
+# https://discord.gg/eRaeJdTsPY
+# ===========================================================================
+
+# ===========================================================================
+# COMMANDES GÉNÉRALES
+# ===========================================================================
+
+General:
+  Help: # Commande d'aide
+    Enabled: true
+    Description: "Affiche une liste de toutes les commandes"
+  Ping: # Commande Ping
+    Enabled: true
+    Description: "Vérifie le ping du bot"
+  Stats: # Commande Stats
+    Enabled: true
+    Description: "Statistiques de la guilde"
+  Suggest: # Commande Suggest
+    Enabled: true
+    Description: "Soumettre une suggestion"
+
+# ===========================================================================
+# COMMANDES DE TICKETS
+# ===========================================================================
+
+Ticket:
+  Add: # Commande Add
+    Enabled: true
+    Description: "Ajouter un utilisateur au ticket"
+  Remove: # Commande Remove
+    Enabled: true
+    Description: "Retirer un utilisateur du ticket"
+  Close: # Commande Close
+    Enabled: true
+    Description: "Fermer un ticket"
+  Delete: # Commande Delete
+    Enabled: true
+    Description: "Forcer et supprimer instantanément un ticket"
+  Panel: # Commande Panel
+    Enabled: true
+    Description: "Envoyer le panneau de tickets"
+  Pin: # Commande Pin
+    Enabled: true
+    Description: "Épingler un ticket"
+  Rename: # Commande Rename
+    Enabled: true
+    Description: "Renommer un ticket"
+  Alert: # Commande Alert
+    Enabled: true
+    Description: "Mentionner le créateur avec un message disant que le ticket sera fermé s'il n'y a pas de réponse."
+
+# ===========================================================================
+# COMMANDES UTILITAIRES
+# ===========================================================================
+
+Utility:
+  Blacklist: # Commande Blacklist
+    Enabled: true
+    Description: "Interdire à un utilisateur de créer des tickets"
+  Unblacklist: # Commande Unblacklist
+    Enabled: true
+    Description: "Autoriser un utilisateur à créer des tickets"
+  Calculate: # Commande Calculate
+    Enabled: true
+    Description: "Calculatrice mathématique"
+  Crypto: # Commande Crypto
+    Enabled: true
+    Description: "Envoyer un paiement en crypto-monnaie"
+  Invoice: # Commande Invoice
+    Enabled: true
+    Description: "Envoyer une facture à un utilisateur"
