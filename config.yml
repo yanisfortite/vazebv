@@ -219,7 +219,7 @@ TicketButton4:
   ClosedCategoryID: "" # The category the ticket will be moved to when it gets closed, leave blank to use the current category (only works if ArchiveTickets is enabled)
   TicketMessageTitle: "({category})" # Use {category} to get the category name for the ticket opened
   TicketMessage: "> Merci d'avoir contacté le support.\n> Veuillez envoyer les preuves du paiement et attendre une réponse." # Use {user} to get the user that created the ticket, {createdAt} to get when the ticket was created using a Discord timestamp
-  ButtonEmoji: "" # Leave blank for no emoji
+  ButtonEmoji: "<:payment:1270420919294361693>" # Leave blank for no emoji
   ButtonColor: "Gray" # Blurple, Gray, Green, Red
   SupportRoles: ["1270419724362186792"] # Users with these roles can view tickets in this category, You can add multiple roles
   MentionSupportRoles: true # Mention all the Support Roles in new tickets?
