@@ -192,8 +192,8 @@ TicketButton2:
 TicketButton3:
   Enabled: true # Enable 3rd category?
   TicketName: "Ally request" # This will be the button and ticket name/category
-  Description: "Cliquez ici pour demander proposer une alliance !" # Category description, This only works if SelectMenu is enabled, Leave blank to disable
-  TicketCategoryID: "1270347727888318476" # Channel Category ID
+  Description: "Cliquez ici pour proposer une alliance !" # Category description, This only works if SelectMenu is enabled, Leave blank to disable
+  TicketCategoryID: "1270419026983649363" # Channel Category ID
   ClosedCategoryID: "" # The category the ticket will be moved to when it gets closed, leave blank to use the current category (only works if ArchiveTickets is enabled)
   TicketMessageTitle: "({category})" # Use {category} to get the category name for the ticket opened
   TicketMessage: "> Merci d'avoir contacté le support.\n> Veuillez attendre une réponse.\n Remarque : Les unnoficial gang ne seront pas nos alliés" # Use {user} to get the user that created the ticket, {createdAt} to get when the ticket was created using a Discord timestamp
@@ -212,24 +212,20 @@ TicketButton3:
 
 # Button 4
 TicketButton4:
-  Enabled: false # Enable 4th category?
-  TicketName: "Example 4" # This will be the button and ticket name/category
-  Description: "" # Category description, This only works if SelectMenu is enabled, Leave blank to disable
+  Enabled: true # Enable 4th category?
+  TicketName: "Permission Request" # This will be the button and ticket name/category
+  Description: "Cliquez ici pour payer" # Category description, This only works if SelectMenu is enabled, Leave blank to disable
   TicketCategoryID: "1265318904696406131" # Channel Category ID
   ClosedCategoryID: "" # The category the ticket will be moved to when it gets closed, leave blank to use the current category (only works if ArchiveTickets is enabled)
-  TicketMessageTitle: "Support Ticket ({category})" # Use {category} to get the category name for the ticket opened
-  TicketMessage: "> Thank you for contacting support.\n> Please describe your issue and await a response." # Use {user} to get the user that created the ticket, {createdAt} to get when the ticket was created using a Discord timestamp
+  TicketMessageTitle: "({category})" # Use {category} to get the category name for the ticket opened
+  TicketMessage: "> Merci d'avoir contacté le support.\n> Veuillez envoyer les preuves du paiement et attendre une réponse." # Use {user} to get the user that created the ticket, {createdAt} to get when the ticket was created using a Discord timestamp
   ButtonEmoji: "" # Leave blank for no emoji
   ButtonColor: "Gray" # Blurple, Gray, Green, Red
-  SupportRoles: ["1265311217459925024"] # Users with these roles can view tickets in this category, You can add multiple roles
-  MentionSupportRoles: false # Mention all the Support Roles in new tickets?
+  SupportRoles: ["1270419724362186792"] # Users with these roles can view tickets in this category, You can add multiple roles
+  MentionSupportRoles: true # Mention all the Support Roles in new tickets?
   ChannelName: "ticket-{username}" # Variables: {total-tickets}, {username}, {user-id}
   RequiredRoles: [] # Require the user to have a specific role to open a ticket in this category? You can add multiple, leave blank to disable
   Questions: # You can add a max of 5 questions per category! (Remove all questions to disable)
-    - customId: "needHelp4" # Must be unique
-      required: true # Is this question required?
-      question: "What do you need help with?"
-      style: "Short" # Short, Paragraph
 
 
 # Button 5
